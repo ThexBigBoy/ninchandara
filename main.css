@@ -1,0 +1,70 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header nav a {
+    margin-right: 2rem;
+}
+
+.infor-header h1{
+    font-weight: 700;
+}
+
+.infor-header h4{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.infor-header h6{
+    margin-top: 15px;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+}
+.infor-header{
+    margin-top: 30px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+}
+.nav{
+    font-weight: 600;
+}
+
+.infor-social a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    background-color:#444;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 15px;
+    transition: all 0.4s ease 0s;
+
+}
+.infor-social .facebook:hover{
+    background-color: #3b5998;
+}
+.infor-social .instagram:hover{
+    background-color: #3f729b;
+}
+.infor-social .twitter:hover{
+    background-color: #00acee;
+}
+.infor-social .github:hover{
+    background-color: #171515;
+}
+.infor-social .telegram:hover{
+    background-color: #0088cc;
+}
