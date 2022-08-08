@@ -85,7 +85,7 @@ img{
         margin-bottom: 50px;
         max-width: 200%;
         margin-right: 50%;
-        margin-left: 20%;
+        margin-left: 10%;
         margin-top: -40%;
     }
     
@@ -95,15 +95,11 @@ img{
     }
 
     .infor-header {
-        width:260%;
+        width:230%;
     }
 
     .infor-social {
-        width: 250%;
-    }
-
-    .infor-social .github {
-        margin-left: 35px;
+        width: 240%;
     }
 
     .infor-header h6{
@@ -115,9 +111,13 @@ img{
     }
 
     .infor-social {
-        margin-left: 15%;
-        margin-top: 30%;
+        margin-left: -1%;
+        margin-top: 10%;
 
+    }
+    .jumbotron {
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
