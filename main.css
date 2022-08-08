@@ -134,5 +134,9 @@ img{
         margin-top: 15px;
         transition: all 0.4s ease 0s;
     }
+    
+    .infor-social .github {
+        margin-left: -35px;
+    }
 
 }
