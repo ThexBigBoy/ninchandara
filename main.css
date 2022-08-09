@@ -92,7 +92,6 @@ img{
     .btn-primary {
         width: 150%;
         margin-top: -20%;
-        margin-left: 10%;
     }
 
     .infor-header {
@@ -135,9 +134,8 @@ img{
         margin-top: 15px;
         transition: all 0.4s ease 0s;
     }
-    
     .infor-social .github {
-        margin-left: -35px;
+        margin-left: 0px;
     }
 
 }
