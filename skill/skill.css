@@ -254,6 +254,18 @@ header nav a {
     .container{
         margin-right: 60%
     }
+    
+    .container{
+        margin-right: 60%
+    }
+
+    .container .box{
+        margin-bottom: -20%;
+    }
+
+    .container .box2{
+        margin-bottom: -20%;
+    }
 
 
     
