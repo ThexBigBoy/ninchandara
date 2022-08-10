@@ -113,6 +113,50 @@ header nav a {
     color: #fff;
 }
 
+.container .box {
+    
+    display: inline-block;
+    background:linear-gradient(to right, #fb5283, #ff3527);
+    text-align: center;
+    transition: all 0.4s ease 0.5s;
+
+}
+
+.container .box:hover{
+    background: linear-gradient(to left, #fb5283, #ff3527);
+}
+
+
+.container .box2 {
+    
+    display: inline-block;
+    background:linear-gradient(to right, #bdc3c7, #2c3e50);
+    text-align: center;
+    transition: all 0.4s ease 0.5s;
+
+}
+
+.container .box2:hover{
+    background: linear-gradient(to left, #bdc3c7, #2c3e50);
+}
+
+.container .box3 {
+    
+    display: inline-block;
+    background:linear-gradient(to right, #2b5876, #4e4376);
+    text-align: center;
+    transition: all 0.4s ease 0.5s;
+
+}
+
+.container .box3:hover{
+    background: linear-gradient(to left, #2b5876, #4e4376);
+}
+
+.container .a{
+    display: block;
+}
+
 @media only screen and (max-width:700px){
     
     .title{
@@ -208,6 +252,10 @@ header nav a {
         padding: 10px;
     }
     .container{
-        margin-left: 30%;
+        margin-right: 60%
     }
+
+
+    
+    
 }
