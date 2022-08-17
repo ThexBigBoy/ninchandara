@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header nav a {
+    margin-right: 2rem;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 900;
+    color: #157DEC;
+    padding: 15px;
+}
+
+.nav a{
+    font-weight: 600;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.col{
+    margin-left: 50px;
+    margin-top: 30px;
+    align-items: center;
+}
+.col .Title{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.col h6{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+img{
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    float: right;
+    margin-right: 15%;
+}
+
+@media only screen and (max-width:700px){
+
+    .row {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    img {
+        margin-bottom: 50px;
+        max-width: 200%;
+        margin-right: 50%;
+        margin-left: 10%;
+        margin-top: -40%;
+    }
+    
+    /* Header */
+
+    .navbar-brand{
+        font-size: 28px;
+    }
+
+    .nav a{
+        font-size: 16px;
+        font-weight: 900;
+        padding: 10px;
+    }
+
+    .navbar .nav a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+
+
+
+
+}
